@@ -8,12 +8,12 @@ public class ConnexionController {
 
 	@GetMapping( "/" )
 	public String page1() {
-		return "home.html";
+		return "connexion/home";
 	}
 
 	@GetMapping( "/hello" )
 	public String page2() {
-		return "bonjour.html";
+		return "connexion/bonjour";
 	}
 
 }
